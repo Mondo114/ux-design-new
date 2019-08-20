@@ -1,0 +1,24 @@
+{
+  "name": "ux-design-new",
+  "version": "1.0.0",
+  "description": "started 081519",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mondo114/ux-design-new.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mondo114/ux-design-new/issues"
+  },
+  "homepage": "https://github.com/Mondo114/ux-design-new#readme"
+}

@@ -418,6 +418,28 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .diagram-section {
+        margin-top: 6em;
+    }
+
+    .roles {
+        margin-top: 3em;
+    }
+
+    .portfolio-item-top {
+        margin-top: 6em;
+    }
+
+    .skills-row {
+        margin-top: 6em;
+    }
+
+    .footer-section {
+        margin-top: 6em;
+    }
+}
+
 @media only screen and (max-width: 992px) {
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 1rem 1.5rem;
@@ -451,6 +473,10 @@ button:focus {
 }
 
 @media only screen and (max-width: 767px) {
+    .logo-top {
+        padding-top: 4px;
+    }
+
     .justify-content-center {
         justify-content: flex-end !important;
     }

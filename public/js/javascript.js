@@ -7,11 +7,8 @@ $(document).ready(function () {
             var $navlink = $(".nav-link");
 
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            $navname.toggleClass('scrolled', $(this).scrollTop() > $navname.height());
-            $navlink.toggleClass('scrolled', $(this).scrollTop() > $navlink.height());
-            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            $navname.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            $navlink.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 
             if ($(this).scrollTop() > $nav.height()) {
                 $nav.removeClass('navbar-dark');

@@ -20,9 +20,9 @@ $(document).ready(function () {
         });
     });
 
-    $('.logo-footer').on("click", function () {
-        $(window).scrollTop(100);
-    });
+    // $('.logo-footer').on("click", function () {
+    //     $(window).scrollTop(100);
+    // });
 
 
 });

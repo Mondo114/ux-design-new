@@ -60,13 +60,6 @@ ul {
     top: 0;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
 .logo-top {
     max-width: 34px;
 }
@@ -162,7 +155,7 @@ button:focus {
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(66, 175, 248)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-  }
+}
 
 .banner {
     height: 700px;
@@ -179,6 +172,7 @@ button:focus {
 .banner-title {
     font-size: 60px;
     color: white;
+    /* color: rgb(224, 195, 136); */
 }
 
 .banner-subtitle {
@@ -269,9 +263,9 @@ button:focus {
 
 .skills-row {
     margin-top: 10em;
-    /* display: flex; */
+    display: flex;
     /* flex-direction: row; */
-    /* justify-content: flex-end; */
+    justify-content: space-between;
 }
 
 .skills-title {
@@ -354,12 +348,72 @@ button:focus {
 /* About Page */
 /* =============================== */
 
+.about-nav {
+    color: rgb(255, 162, 152) !important;
+    font-weight: bold;
+}
+
+.image-section {
+    display: flex;
+}
+
+.watercolor-top {
+    background-image: url("../images/watercolor1.jpg");
+    height: 266px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.portrait {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-section {
+    margin-top: 4em;
+}
+
+.aquarium {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.watercolor-bottom {
+    background-image: url("../images/watercolor2.jpg");
+    height: 266px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    margin-top: 8em;
+    margin-bottom: -1px;
+}
+
+.about-footer-section {
+    margin-top: 0 !important;
+}
 
 
 /* =============================== */
 /* Contact Page */
 /* =============================== */
 
+.contact-nav {
+    color: rgb(255, 162, 152) !important;
+    font-weight: bold;
+}
 
 
 /* =============================== */
@@ -416,17 +470,21 @@ button:focus {
 
 @media only screen and (max-width: 1200px) {
     #about-nav {
-        margin: 0rem 0rem 0rem 24rem;
+        margin: 0rem 0rem 0rem 23rem;
     }
 
     .roles {
         margin-top: 5em;
     }
 
-    .skills-title-3,
-    .skills-title-4 {
-        margin-top: 1em;
+    .skills-title {
+        font-size: 1.7em;
     }
+
+    /* .skills-title-3,
+    .skills-title-4 {
+        margin-top: 2em;
+    } */
 }
 
 @media only screen and (max-width: 1100px) {
@@ -452,6 +510,10 @@ button:focus {
         margin-top: 6em;
     }
 
+    .watercolor-bottom {
+        margin-top: 4em;
+    }
+
     .footer-section {
         margin-top: 6em;
     }
@@ -463,7 +525,7 @@ button:focus {
     }
 
     #contact-nav {
-        margin: 0rem 0rem 0rem 0rem;
+        margin: 0rem 0rem 0rem 2rem;
     }
 
     #home-nav,
@@ -477,7 +539,11 @@ button:focus {
     }
 
     #about-nav {
-        margin: 0rem 0rem 0rem 15rem;
+        margin: 0rem 0rem 0rem 12rem;
+    }
+
+    .skills-title {
+        font-size: 1.2em;
     }
 
     .footer-content {
@@ -490,10 +556,10 @@ button:focus {
         padding-top: 4px;
     }
 
-    .justify-content-center {
+    /* .justify-content-center {
         justify-content: flex-end !important;
-    }
-    
+    } */
+
     .banner {
         height: 450px;
     }
@@ -506,19 +572,37 @@ button:focus {
         font-size: 24px;
     }
 
-    .skills-row {
+    /* .skills-row {
         display: grid;
         justify-content: center;
+    } */
+
+    .skills-title {
+        font-size: 1em;
     }
-    
+
     .skills-title-2 {
-        margin-top: 1em;
+        /* margin-top: 2em; */
+    }
+
+    .skills-item {
+        font-size: 0.8em;
+    }
+
+    .watercolor-top {
+        height: 150px;
+        background-position: 20% 0px;
+    }
+
+    .watercolor-bottom {
+        height: 150px;
+        background-position: 1% 0px;
     }
 }
 
 @media only screen and (max-width: 750px) {
     .footer-section {
-        height: 352px;
+        height: 324px;
     }
 
     .footer-content {
@@ -530,9 +614,23 @@ button:focus {
     }
 }
 
+@media only screen and (max-width: 600px) {
+    .skills-row {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 576px) {
+    .portrait {
+        max-width: 400px;
+    }
+
+    .aquarium {
+        max-width: 400px;
+    }
+
     .footer-section {
-        height: 504px;
+        height: 476px;
     }
 
     .footer-top {
@@ -553,10 +651,10 @@ button:focus {
 }
 
 @media only screen and (max-width: 500px) {
-    .container {
+    /* .container {
         padding-left: 0;
         padding-right: 0;
-    }
+    } */
 
     .footer-items img {
         width: 30px;

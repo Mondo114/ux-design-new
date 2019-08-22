@@ -23,12 +23,12 @@ p {
 }
 
 a {
-    color: rgb(57, 198, 245);
+    color: rgb(33, 186, 236);
     text-decoration: none !important;
 }
 
 a:hover {
-    color: rgb(255, 162, 152);
+    color: rgb(247, 108, 94);
 }
 
 .text-color {
@@ -77,12 +77,12 @@ ul {
 
 .nav-name:hover {
     cursor: pointer;
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 .nav-name:active {
     cursor: pointer;
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 button:focus {
@@ -114,12 +114,12 @@ button:focus {
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 .nav-link:active {
     cursor: pointer;
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 .navbar.scrolled {
@@ -134,7 +134,7 @@ button:focus {
 }
 
 .nav-name.scrolled:hover {
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 .nav-name.scrolled:active {
@@ -146,15 +146,15 @@ button:focus {
 }
 
 .nav-link.scrolled:hover {
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 .nav-link.scrolled:active {
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
 }
 
 /* .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 162, 152)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(247, 108, 94)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 } */
 
 .banner {
@@ -171,7 +171,7 @@ button:focus {
 
 .banner-title {
     font-size: 50px;
-    color: rgb(255, 162, 152);
+    color: rgb(247, 108, 94);
     /* color: rgb(224, 195, 136); */
 }
 
@@ -189,15 +189,15 @@ button:focus {
     align-items: center;
 }
 
-.diagram {
-    /* margin: 0 auto;
-    width: 50%; */
+/* .diagram {
+    margin: 0 auto;
+    width: 50%;
     height: 300px;
     background-image: url(../images/underwater.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .roles {
     font-size: 30px;
@@ -309,7 +309,7 @@ button:focus {
 .skills-title {
     font-size: 2em;
     font-weight: bold;
-    color: rgb(57, 198, 245)
+    color: rgb(33, 186, 236);
 }
 
 .skills-item {
@@ -388,7 +388,7 @@ button:focus {
 /* =============================== */
 
 .about-nav {
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
     font-weight: bold;
 }
 
@@ -409,14 +409,14 @@ button:focus {
 .portrait {
     width: 100%;
     max-width: 400px;
-    height: auto;
+    height: 100%;
     margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .about-section {
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .aquarium {
@@ -450,7 +450,7 @@ button:focus {
 /* =============================== */
 
 .contact-nav-text {
-    color: rgb(255, 162, 152) !important;
+    color: rgb(247, 108, 94) !important;
     font-weight: bold;
 }
 
@@ -465,6 +465,8 @@ button:focus {
 .help-title {
     font-size: 3em;
     margin-top: 60px;
+    font-weight: 500;
+    color: rgb(247, 108, 94);
 }
 
 .help-content {
@@ -478,14 +480,14 @@ button:focus {
 .pelican {
     width: 100%;
     max-width: 300px;
-    height: auto;
+    height: 100%;
     margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
 }
 
 .pelican-bottom {
-    margin-top: -10em;
+    margin-top: -12em;
 }
 
 
@@ -590,10 +592,6 @@ button:focus {
 
     .aquarium {
         padding: 12px;
-    }
-
-    .pelican-bottom {
-        margin-top: -10em;
     }
 
     .footer-section {
@@ -766,6 +764,10 @@ button:focus {
     .portrait {
         padding: 12px;
         margin-top: 2em;
+    }
+
+    .about-section {
+        margin-top: 1em;
     }
 
     .aquarium {

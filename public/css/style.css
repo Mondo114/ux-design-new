@@ -436,7 +436,7 @@ button:focus {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    margin-top: 8em;
+    margin-top: 4em;
     margin-bottom: -1px;
 }
 
@@ -586,10 +586,6 @@ button:focus {
 
     .skills-row {
         margin-top: 6em;
-    }
-
-    .watercolor-bottom {
-        margin-top: 4em;
     }
 
     .aquarium {

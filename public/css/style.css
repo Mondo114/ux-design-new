@@ -23,12 +23,12 @@ p {
 }
 
 a {
-    color: rgb(53, 155, 189);
+    color: rgb(57, 198, 245);
     text-decoration: none !important;
 }
 
 a:hover {
-    color: rgb(255, 162, 152) ;
+    color: rgb(255, 162, 152);
 }
 
 .text-color {
@@ -77,12 +77,12 @@ ul {
 
 .nav-name:hover {
     cursor: pointer;
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 .nav-name:active {
     cursor: pointer;
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 button:focus {
@@ -91,7 +91,7 @@ button:focus {
 }
 
 #about-nav {
-    margin: 0rem 0rem 0rem 35rem;
+    margin: 0rem 0rem 0rem 34rem;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -114,12 +114,12 @@ button:focus {
 
 .nav-link:hover {
     cursor: pointer;
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 .nav-link:active {
     cursor: pointer;
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 .navbar.scrolled {
@@ -134,7 +134,7 @@ button:focus {
 }
 
 .nav-name.scrolled:hover {
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 .nav-name.scrolled:active {
@@ -146,15 +146,15 @@ button:focus {
 }
 
 .nav-link.scrolled:hover {
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 .nav-link.scrolled:active {
-    color: rgb(66, 175, 248) !important;
+    color: rgb(255, 162, 152) !important;
 }
 
 /* .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(66, 175, 248)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255, 162, 152)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 } */
 
 .banner {
@@ -170,14 +170,14 @@ button:focus {
 }
 
 .banner-title {
-    font-size: 60px;
-    color: white;
+    font-size: 50px;
+    color: rgb(255, 162, 152);
     /* color: rgb(224, 195, 136); */
 }
 
 .banner-subtitle {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     padding: 20px 10px 20px 10px;
 }
@@ -235,6 +235,16 @@ button:focus {
     -o-background-size: cover;
 }
 
+.portfolio-item:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.portfolio-item:active {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .portfolio-item-top {
     margin-top: 10em;
 }
@@ -290,7 +300,7 @@ button:focus {
 }
 
 .skills-row {
-    margin-top: 10em;
+    margin-top: 9em;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
@@ -299,6 +309,7 @@ button:focus {
 .skills-title {
     font-size: 2em;
     font-weight: bold;
+    color: rgb(57, 198, 245)
 }
 
 .skills-item {
@@ -622,6 +633,26 @@ button:focus {
         margin: 0rem 0rem 0rem 12rem;
     }
 
+    .banner {
+        height: 700px;
+        background-image: url(../images/waves-medium.jpg);
+        background-position: 0 0px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-subtitle {
+        font-size: 20px;
+    }
+
     .skills-title {
         font-size: 1.2em;
     }
@@ -642,14 +673,6 @@ button:focus {
 
     .banner {
         height: 450px;
-    }
-
-    .banner-title {
-        font-size: 40px;
-    }
-
-    .banner-subtitle {
-        font-size: 24px;
     }
 
     .portfolio-item {
@@ -717,6 +740,15 @@ button:focus {
 }
 
 @media only screen and (max-width: 600px) {
+    .banner-title {
+        font-size: 28px;
+    }
+
+    .banner-subtitle {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
     .skills-row {
         display: none;
     }

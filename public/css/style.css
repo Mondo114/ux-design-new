@@ -416,7 +416,7 @@ button:focus {
 }
 
 .about-section {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .aquarium {
@@ -713,7 +713,7 @@ button:focus {
     }
 
     .pelican {
-        max-width: 200px;
+        max-width: 180px;
     }
 
     .pelican-bottom {
@@ -755,21 +755,40 @@ button:focus {
         margin: 0rem 0rem 0rem 0rem;
     }
 
+    .portfolio-item-top {
+        margin-top: 4em;
+    }
+
+    .portfolio-item {
+        margin-top: 4em;
+    }
+
     .portrait {
         padding: 12px;
+        margin-top: 2em;
     }
 
     .aquarium {
         max-width: 400px;
         padding: 12px;
+        margin-top: 2em;
+    }
+
+    .watercolor-bottom {
+        margin-top: 2em;
     }
 
     .help-title {
-        margin-top: 20px;
+        margin-top: 0px;
+    }
+
+    .help-content {
+        font-size: 1em;
     }
 
     .pelican {
         margin-top: 2em;
+        margin-bottom: -8.5em;
     }
 
     .footer-section {

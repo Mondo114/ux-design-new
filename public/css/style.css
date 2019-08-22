@@ -23,12 +23,12 @@ p {
 }
 
 a {
-    color: rgb(66, 175, 248);
+    color: rgb(53, 155, 189);
     text-decoration: none !important;
 }
 
 a:hover {
-    color: rgb(162, 215, 253);
+    color: rgb(255, 162, 152) ;
 }
 
 .text-color {
@@ -153,9 +153,9 @@ button:focus {
     color: rgb(66, 175, 248) !important;
 }
 
-.navbar-toggler-icon {
+/* .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(66, 175, 248)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+} */
 
 .banner {
     height: 700px;
@@ -227,20 +227,48 @@ button:focus {
     box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
     border-radius: 5px;
     position: relative;
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 .portfolio-item-top {
     margin-top: 10em;
 }
 
+.scifts-screenshot {
+    background-image: url("../images/portfolio-screenshot/scifts-screenshot.jpg");
+}
+
+.tuka-screenshot {
+    background-image: url("../images/portfolio-screenshot/tuka-screenshot.jpg");
+}
+
+.microgurt-screenshot {
+    background-image: url("../images/portfolio-screenshot/microgurt-screenshot.jpg");
+}
+
+.new2dev-screenshot {
+    background-image: url("../images/portfolio-screenshot/new2dev-screenshot.jpg");
+}
+
+.antlers-screenshot {
+    background-image: url("../images/portfolio-screenshot/antlers-screenshot.jpg");
+}
+
+.dribbble-screenshot {
+    background-image: url("../images/portfolio-screenshot/dribbble-screenshot.jpg");
+}
+
 .portfolio-text {
     height: 100px;
     padding: 12px;
-    background: #e0c388;
-    color: #333333;
+    background: #333333;
+    color: #e0c388;
     font-size: 1.2em;
-    /* line-height: 1.5em; */
-    /* margin-top: 64px; */
     left: 0;
     width: 100%;
     bottom: 0;
@@ -401,7 +429,7 @@ button:focus {
     margin-bottom: -1px;
 }
 
-.about-footer-section {
+.footer-section-no-space {
     margin-top: 0 !important;
 }
 
@@ -410,9 +438,43 @@ button:focus {
 /* Contact Page */
 /* =============================== */
 
-.contact-nav {
+.contact-nav-text {
     color: rgb(255, 162, 152) !important;
     font-weight: bold;
+}
+
+.help-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.help-title {
+    font-size: 3em;
+    margin-top: 60px;
+}
+
+.help-content {
+    font-size: 1.6em;
+}
+
+.help-content-1 {
+    margin-top: 32px;
+}
+
+.pelican {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pelican-bottom {
+    margin-top: -10em;
 }
 
 
@@ -459,6 +521,11 @@ button:focus {
 @media only screen and (max-width: 1500px) {
     .banner {
         background-position: 0 -200px;
+    }
+
+    .portfolio-item {
+        margin-left: 6px;
+        margin-right: 6px;
     }
 }
 
@@ -514,6 +581,14 @@ button:focus {
         margin-top: 4em;
     }
 
+    .aquarium {
+        padding: 12px;
+    }
+
+    .pelican-bottom {
+        margin-top: -10em;
+    }
+
     .footer-section {
         margin-top: 6em;
     }
@@ -528,10 +603,15 @@ button:focus {
         margin: 0rem 0rem 0rem 2rem;
     }
 
+    #contact-page-nav {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
     #home-nav,
     #portfolio-nav,
     #about-nav,
     #contact-nav,
+    #contact-page-nav,
     #home-nav-portfolio,
     #about-nav-about {
         padding: 0rem 0rem;
@@ -572,6 +652,11 @@ button:focus {
         font-size: 24px;
     }
 
+    .portfolio-item {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
     /* .skills-row {
         display: grid;
         justify-content: center;
@@ -598,6 +683,23 @@ button:focus {
         height: 150px;
         background-position: 1% 0px;
     }
+
+    .help-title {
+        font-size: 2em;
+    }
+
+    .help-content {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .pelican {
+        max-width: 200px;
+    }
+
+    .pelican-bottom {
+        margin-top: -7em;
+    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -621,16 +723,29 @@ button:focus {
 }
 
 @media only screen and (max-width: 576px) {
+    #about-nav {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
     .portrait {
-        max-width: 400px;
+        padding: 12px;
     }
 
     .aquarium {
         max-width: 400px;
+        padding: 12px;
+    }
+
+    .help-title {
+        margin-top: 20px;
+    }
+
+    .pelican {
+        margin-top: 2em;
     }
 
     .footer-section {
-        height: 476px;
+        height: 466px;
     }
 
     .footer-top {
@@ -669,6 +784,14 @@ button:focus {
 }
 
 @media only screen and (max-width: 359px) {
+    p {
+        font-size: 16px;
+    }
+
+    .my-name {
+        max-width: 200px;
+    }
+
     .banner-title {
         font-size: 30px;
     }

@@ -16,7 +16,6 @@ $(document).ready(function () {
             } else {
                 $nav.addClass('navbar-dark');
             }
-
         });
     });
 

@@ -158,6 +158,7 @@ button:focus {
 } */
 
 .banner {
+    text-align: center;
     height: 700px;
     background-image: url(../images/waves.jpg);
     background-position: 0 -300px;
@@ -176,7 +177,6 @@ button:focus {
 }
 
 .banner-subtitle {
-    text-align: center;
     font-size: 30px;
     color: white;
     padding: 20px 10px 20px 10px;
@@ -219,14 +219,12 @@ button:focus {
 
 .portfolio-item {
     text-align: center;
-    /* margin: 0 auto; */
-    height: 500px;
+    height: 400px;
     margin-top: 6em;
     margin-left: 2em;
     margin-right: 2em;
     box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
     border-radius: 5px;
-    position: relative;
     background-position: center 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,6 +246,42 @@ button:focus {
 .portfolio-item-top {
     margin-top: 10em;
 }
+
+.portfolio-description {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+.portfolio-title {
+    font-size: 1.8em;
+    font-weight: 500;
+    color: rgb(33, 186, 236);
+}
+
+.portfolio-text {
+    font-size: 1.2em;
+}
+
+/* .portfolio-text {
+    height: 100px;
+    padding: 12px;
+    background: #333333;
+    color: #e0c388;
+    font-size: 1.2em;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+} */
 
 .scifts-screenshot {
     background-image: url("../images/portfolio-screenshot/scifts-screenshot.jpg");
@@ -271,23 +305,6 @@ button:focus {
 
 .dribbble-screenshot {
     background-image: url("../images/portfolio-screenshot/dribbble-screenshot.jpg");
-}
-
-.portfolio-text {
-    height: 100px;
-    padding: 12px;
-    background: #333333;
-    color: #e0c388;
-    font-size: 1.2em;
-    left: 0;
-    width: 100%;
-    bottom: 0;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
 }
 
 .col {
@@ -314,7 +331,7 @@ button:focus {
 
 .skills-item {
     padding-top: 0.5em;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .footer-section {
@@ -547,6 +564,10 @@ button:focus {
     .banner {
         background-position: 0 -100px;
     }
+
+    .portfolio-item {
+        height: 350px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -585,6 +606,18 @@ button:focus {
 
     .portfolio-item-top {
         margin-top: 6em;
+    }
+
+    .portfolio-item {
+        height: 300px;
+    }
+
+    .portfolio-title {
+        font-size: 1.5em;
+    }
+
+    .portfolio-text {
+        font-size: 1em;
     }
 
     .skills-row {
@@ -648,8 +681,16 @@ button:focus {
         font-size: 20px;
     }
 
+    .portfolio-item {
+        height: 260px;
+    }
+
     .skills-title {
         font-size: 1.2em;
+    }
+
+    .skills-item {
+        font-size: 1em;
     }
 
     .footer-content {
@@ -671,8 +712,7 @@ button:focus {
     }
 
     .portfolio-item {
-        margin-left: 6px;
-        margin-right: 6px;
+        height: 260px;
     }
 
     /* .skills-row {
@@ -682,10 +722,6 @@ button:focus {
 
     .skills-title {
         font-size: 1em;
-    }
-
-    .skills-title-2 {
-        /* margin-top: 2em; */
     }
 
     .skills-item {
@@ -827,12 +863,6 @@ button:focus {
     }
 }
 
-@media only screen and (max-width: 400px) {
-    .portfolio-title {
-        padding: 40px 0 20px 0;
-    }
-}
-
 @media only screen and (max-width: 359px) {
     p {
         font-size: 16px;
@@ -848,5 +878,13 @@ button:focus {
 
     .navbar-expand-md .navbar-nav .nav-link {
         padding: 1rem 1.1rem;
+    }
+
+    .portfolio-item {
+        height: 200px;
+    }
+
+    .portfolio-text {
+        font-size: 0.9em;
     }
 }

@@ -19,9 +19,5 @@ $(document).ready(function () {
         });
     });
 
-    app.use(function(req,res){
-        res.status(404).render('404.html');
-    });
-
 
 });

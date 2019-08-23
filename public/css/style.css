@@ -90,8 +90,8 @@ button:focus {
     outline: 5px auto rgb(20, 19, 29);
 }
 
-#about-nav {
-    margin: 0rem 0rem 0rem 34rem;
+#projects-nav {
+    margin: 0rem 0rem 0rem 25rem;
 }
 
 .navbar-expand-md .navbar-nav .nav-link {
@@ -153,9 +153,10 @@ button:focus {
     color: rgb(247, 108, 94) !important;
 }
 
-/* .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(247, 108, 94)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-} */
+.projects-nav-text {
+    color: rgb(247, 108, 94) !important;
+    font-weight: bold;
+}
 
 .banner {
     text-align: center;
@@ -173,7 +174,6 @@ button:focus {
 .banner-title {
     font-size: 50px;
     color: rgb(247, 108, 94);
-    /* color: rgb(224, 195, 136); */
 }
 
 .banner-subtitle {
@@ -202,19 +202,6 @@ button:focus {
 .roles {
     font-size: 30px;
     text-align: center;
-}
-
-.portfolio-container {
-    /* padding-bottom: 100px; */
-}
-
-.portfolio-row {
-    /* display: flex;
-    justify-content: center; */
-}
-
-.portfolio-box {
-    /* flex-direction: column; */
 }
 
 .portfolio-item {
@@ -404,9 +391,13 @@ button:focus {
 /* About Page */
 /* =============================== */
 
-.about-nav {
+.about-nav-text {
     color: rgb(247, 108, 94) !important;
     font-weight: bold;
+}
+
+.about-nav-text.scrolled {
+    color: rgb(247, 108, 94) !important;
 }
 
 .image-section {
@@ -414,7 +405,7 @@ button:focus {
 }
 
 .watercolor-top {
-    background-image: url("../images/watercolor1.jpg");
+    background-image: url("../images/watercolor-top.jpg");
     height: 266px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -446,7 +437,7 @@ button:focus {
 }
 
 .watercolor-bottom {
-    background-image: url("../images/watercolor2.jpg");
+    background-image: url("../images/watercolor-bottom.jpg");
     height: 266px;
     background-position: center center;
     background-repeat: no-repeat;
@@ -469,6 +460,10 @@ button:focus {
 .contact-nav-text {
     color: rgb(247, 108, 94) !important;
     font-weight: bold;
+}
+
+.contact-nav-text.scrolled {
+    color: rgb(247, 108, 94) !important;
 }
 
 .help-section {
@@ -506,6 +501,25 @@ button:focus {
 
 .pelican-bottom {
     margin-top: -12em;
+}
+
+
+/* =============================== */
+/* Common Project Content */
+/* =============================== */
+
+.watercolor-nav {
+    background-image: url("../images/watercolor-nav.jpg");
+    height: 72px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.placeholder {
+    height: 800px;
 }
 
 
@@ -571,8 +585,8 @@ button:focus {
 }
 
 @media only screen and (max-width: 1200px) {
-    #about-nav {
-        margin: 0rem 0rem 0rem 23rem;
+    #projects-nav {
+        margin: 0rem 0rem 0rem 14rem;
     }
 
     .roles {
@@ -582,11 +596,6 @@ button:focus {
     .skills-title {
         font-size: 1.6em;
     }
-
-    /* .skills-title-3,
-    .skills-title-4 {
-        margin-top: 2em;
-    } */
 }
 
 @media only screen and (max-width: 1100px) {
@@ -642,27 +651,23 @@ button:focus {
         padding: 1rem 1.5rem;
     }
 
+    #projects-nav {
+        margin: 0rem 0rem 0rem 4rem;
+    }
+
+    #about-nav {
+        margin: 0rem 0rem 0rem 2rem;
+    }
+
     #contact-nav {
         margin: 0rem 0rem 0rem 2rem;
     }
 
-    #contact-page-nav {
-        margin: 0rem 0rem 0rem 0rem;
-    }
-
-    #home-nav,
-    #portfolio-nav,
+    #projects-nav,
     #about-nav,
     #contact-nav,
-    #contact-page-nav,
-    #home-nav-portfolio,
-    #about-nav-about {
+    #home-nav-portfolio {
         padding: 0rem 0rem;
-        /* font-size: 14px; */
-    }
-
-    #about-nav {
-        margin: 0rem 0rem 0rem 12rem;
     }
 
     .banner {
@@ -703,9 +708,17 @@ button:focus {
         padding-top: 4px;
     }
 
-    /* .justify-content-center {
-        justify-content: flex-end !important;
-    } */
+    #projects-nav {
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    #about-nav {
+        margin: 0rem 0rem 0rem 1rem;
+    }
+
+    #contact-nav {
+        margin: 0rem 0rem 0rem 1rem;
+    }
 
     .banner {
         height: 450px;
@@ -714,11 +727,6 @@ button:focus {
     .portfolio-item {
         height: 260px;
     }
-
-    /* .skills-row {
-        display: grid;
-        justify-content: center;
-    } */
 
     .skills-title {
         font-size: 1em;
@@ -786,7 +794,7 @@ button:focus {
 }
 
 @media only screen and (max-width: 576px) {
-    #about-nav {
+    #projects-nav {
         margin: 0rem 0rem 0rem 0rem;
     }
 
@@ -852,11 +860,6 @@ button:focus {
 }
 
 @media only screen and (max-width: 500px) {
-    /* .container {
-        padding-left: 0;
-        padding-right: 0;
-    } */
-
     .footer-items img {
         width: 30px;
         height: 30px;

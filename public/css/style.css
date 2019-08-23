@@ -257,9 +257,9 @@ button:focus {
 }
 
 .portfolio-title {
-    font-size: 1.8em;
-    font-weight: 500;
-    color: rgb(33, 186, 236);
+    font-size: 1.6em;
+    font-weight: bold;
+    color: rgb(247, 108, 94);
 }
 
 .portfolio-text {
@@ -580,7 +580,7 @@ button:focus {
     }
 
     .skills-title {
-        font-size: 1.7em;
+        font-size: 1.6em;
     }
 
     /* .skills-title-3,
@@ -613,7 +613,7 @@ button:focus {
     }
 
     .portfolio-title {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     .portfolio-text {
@@ -622,6 +622,10 @@ button:focus {
 
     .skills-row {
         margin-top: 6em;
+    }
+
+    .skills-item {
+        font-size: 1em;
     }
 
     .aquarium {
@@ -687,10 +691,6 @@ button:focus {
 
     .skills-title {
         font-size: 1.2em;
-    }
-
-    .skills-item {
-        font-size: 1em;
     }
 
     .footer-content {

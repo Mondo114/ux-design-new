@@ -439,6 +439,7 @@ button:focus {
 }
 
 .help-section {
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,7 +456,6 @@ button:focus {
 
 .help-content {
     font-size: 1.6em;
-    text-align: center;
 }
 
 .help-content-1 {
@@ -724,7 +724,6 @@ button:focus {
 
     .help-content {
         font-size: 1.2em;
-        text-align: center;
     }
 
     .pelican {
@@ -794,15 +793,19 @@ button:focus {
     }
 
     .watercolor-bottom {
-        margin-top: 2em;
+        margin-top: 1em;
     }
 
     .help-title {
         margin-top: 0px;
     }
 
+    .help-title {
+        font-size: 1.6em;
+    }
+
     .help-content {
-        font-size: 1em;
+        font-size: 0.85em;
     }
 
     .pelican {
@@ -861,5 +864,9 @@ button:focus {
 
     .portfolio-text {
         font-size: 0.9em;
+    }
+
+    .help-content {
+        font-size: 0.75em;
     }
 }

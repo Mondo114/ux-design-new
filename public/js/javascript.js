@@ -3,11 +3,9 @@ $(document).ready(function () {
     $(function () {
         $(document).scroll(function () {
             var $nav = $(".navbar");
-            var $navname = $(".nav-name");
             var $navlink = $(".nav-link");
 
             $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-            $navname.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
             $navlink.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
 
             if ($(this).scrollTop() > $nav.height()) {
@@ -27,10 +25,10 @@ $(document).ready(function () {
             // if you've scrolled further than the top of div1 plus it's height
             // change the color. either by adding a class or setting a css property
             if (scroll > os + ht){
-                $('#projects-nav').addClass('projects-nav-text');
+                $('.projects-link').addClass('projects-link-text');
             }
             else {
-                $('#projects-nav').removeClass('projects-nav-text');
+                $('.projects-link').removeClass('projects-link-text');
             }
         });
     });

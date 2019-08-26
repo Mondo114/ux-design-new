@@ -42,7 +42,7 @@ a:hover {
     top: 0;
     width: 100%;
     z-index: 999;
-    color: white !important;
+    color: white;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -69,22 +69,6 @@ ul {
     padding-left: 12px;
 }
 
-.nav-name {
-    color: white;
-    font-size: 16px;
-    padding-left: 16px;
-}
-
-.nav-name:hover {
-    cursor: pointer;
-    color: rgb(247, 108, 94) !important;
-}
-
-.nav-name:active {
-    cursor: pointer;
-    color: rgb(247, 108, 94) !important;
-}
-
 button:focus {
     outline: 1px dotted;
     outline: 5px auto rgb(20, 19, 29);
@@ -107,53 +91,41 @@ button:focus {
     flex-grow: 2;
 }
 
-.nav-link {
-    color: white !important;
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
     font-size: 16px;
 }
 
-.nav-link:hover {
+.navbar-dark .navbar-nav .nav-link:hover {
     cursor: pointer;
-    color: rgb(247, 108, 94) !important;
+    color: rgb(247, 108, 94);
 }
 
-.nav-link:active {
+.navbar-dark .navbar-nav .nav-link:active {
     cursor: pointer;
-    color: rgb(247, 108, 94) !important;
+    color: rgb(247, 108, 94);
 }
 
 .navbar.scrolled {
     background-color: white;
     /* opacity: 0.95; */
     transition: background-color 200ms linear;
-    color: #333333 !important;
+    color: #333333;
 }
 
-.nav-name.scrolled {
-    color: #333333 !important;
+.navbar-light .navbar-nav .nav-link.scrolled {
+    color: #333333;
 }
 
-.nav-name.scrolled:hover {
-    color: rgb(247, 108, 94) !important;
+.navbar-light .navbar-nav .nav-link.scrolled:hover {
+    color: rgb(247, 108, 94);
 }
 
-.nav-name.scrolled:active {
-    color: #333333 !important;
+.navbar-light .navbar-nav .nav-link.scrolled:active {
+    color: rgb(247, 108, 94);
 }
 
-.nav-link.scrolled {
-    color: #333333 !important;
-}
-
-.nav-link.scrolled:hover {
-    color: rgb(247, 108, 94) !important;
-}
-
-.nav-link.scrolled:active {
-    color: rgb(247, 108, 94) !important;
-}
-
-.projects-nav-text {
+.projects-link-text {
     color: rgb(247, 108, 94) !important;
     font-weight: bold;
 }

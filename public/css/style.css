@@ -494,11 +494,44 @@ button:focus {
     height: 800px;
 }
 
+.flex-center {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.project-title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: rgb(247, 108, 94);
+}
+
+.project-subtitle {
+    font-size: 30px;
+    padding-top: 30px;
+    font-weight: 500;
+    color: rgb(247, 108, 94);
+}
+
+/* .project-paragraph {
+    padding-top: 20px;
+} */
+
 
 /* =============================== */
 /* SCIFTS */
 /* =============================== */
 
+.scifts-laptop {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 /* =============================== */

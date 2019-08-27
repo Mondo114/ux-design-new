@@ -218,11 +218,11 @@ button:focus {
 .portfolio-title {
     font-size: 1.6em;
     font-weight: bold;
-    color: rgb(247, 108, 94);
 }
 
 .portfolio-text {
     font-size: 1.2em;
+    color: #333333;
 }
 
 /* .portfolio-text {
@@ -285,7 +285,7 @@ button:focus {
 .skills-title {
     font-size: 2em;
     font-weight: bold;
-    color: rgb(33, 186, 236);
+    color: rgb(247, 108, 94);
 }
 
 .skills-item {

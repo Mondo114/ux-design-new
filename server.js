@@ -20,15 +20,8 @@ app.use(bodyParser.text({type: "text/html"}));
 app.use("/", express.static("./"));
 
 
-var errorPg = path.join(__dirname, './404.html'); //this is your error page
+var errorPg = path.join(__dirname, './404.html'); // error page
 
-// app.use(function(req, res) {
-//   res.status(404).end(errorPg);
-// });
-
-// app.use(function(req, res, next){
-//   res.status(404).render('404', {title: "Sorry, page not found"});
-// });
 
 app.get("*", function(req,res){
   res.sendFile(errorPg);

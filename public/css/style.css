@@ -399,15 +399,6 @@ button:focus {
     margin-top: 3em;
 }
 
-.aquarium {
-    width: 100%;
-    max-width: 800px;
-    height: auto;
-    margin-top: 4em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .watercolor-bottom {
     background-image: url("../images/watercolor-bottom.jpg");
     height: 266px;
@@ -497,6 +488,10 @@ button:focus {
 .flex-center {
     display: flex;
     /* justify-content: center; */
+}
+
+.no-left {
+    padding-left: 0px;
 }
 
 .project-title {
@@ -640,10 +635,6 @@ button:focus {
 
     .skills-item {
         font-size: 1em;
-    }
-
-    .aquarium {
-        padding: 12px;
     }
 
     .footer-section {
@@ -798,6 +789,10 @@ button:focus {
 }
 
 @media only screen and (max-width: 576px) {
+    p {
+        font-size: 16px;
+    }
+
     #projects-nav {
         margin: 0rem 0rem 0rem 0rem;
     }
@@ -810,6 +805,16 @@ button:focus {
         margin-top: 4em;
     }
 
+    .project-title {
+        font-size: 30px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .project-subtitle {
+        font-size: 24px;
+    }
+
     .portrait {
         padding: 12px;
         margin-top: 2em;
@@ -817,12 +822,6 @@ button:focus {
 
     .about-section {
         margin-top: 1em;
-    }
-
-    .aquarium {
-        max-width: 400px;
-        padding: 12px;
-        margin-top: 2em;
     }
 
     .watercolor-bottom {
@@ -875,10 +874,6 @@ button:focus {
 }
 
 @media only screen and (max-width: 359px) {
-    p {
-        font-size: 16px;
-    }
-
     .my-name {
         max-width: 200px;
     }

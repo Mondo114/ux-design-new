@@ -500,7 +500,7 @@ button:focus {
     margin-top: 60px;
     margin-bottom: 60px;
     font-weight: 500;
-    color: rgb(247, 108, 94);
+    /* color: rgb(247, 108, 94); */
 }
 
 .project-subtitle {

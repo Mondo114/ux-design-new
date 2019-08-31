@@ -502,6 +502,7 @@ button:focus {
 
 .flex-center {
     display: flex;
+    justify-content: center;
 }
 
 .no-left {
@@ -512,9 +513,17 @@ button:focus {
     text-align: center;
     font-size: 50px;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     font-weight: 500;
     color: rgb(247, 108, 94);
+}
+
+.project-section-title {
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    color: #5587D8;
 }
 
 .project-subtitle {
@@ -529,8 +538,8 @@ button:focus {
     width: 100%;
     max-width: 400px;
     height: 100%;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -540,8 +549,40 @@ button:focus {
     opacity: 0.9;
 }
 
+.prototype-image:active {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
 .prototype-description {
     text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.figure-image {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin-top: 80px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.figure-image-small {
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-end {
+    align-items: flex-end;
 }
 
 

@@ -501,6 +501,11 @@ button:focus {
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
+}
+
+.image-shadow {
+    box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
 }
 
 .watercolor-nav {
@@ -559,6 +564,7 @@ button:focus {
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
+    box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
 }
 
 .prototype-image:hover {
@@ -575,6 +581,13 @@ button:focus {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+}
+
+.prototype-description-space-top {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 12px;
 }
 
 .figure-image-xl {
@@ -673,11 +686,7 @@ button:focus {
     margin-top: 24px;
 }
 
-.live-website-section {
-    padding: 0px 18px 32px 18px;
-    margin: 40px 20px 20px 20px;
-    background: rgb(240, 243, 255);
-    box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
+.live-website-link {
     border-radius: 5px;
 }
 

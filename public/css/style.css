@@ -306,8 +306,20 @@ button:focus {
     font-size: 1.2em;
 }
 
+.go-to-top-content {
+    font-size: 18px;
+    margin: 12px 24px 12px 0px;
+    height: 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bubbles {
+    max-width: 50px;
+    cursor: pointer;
+}
+
 .footer-section {
-    margin-top: 10em;
     text-align: center;
     background: rgb(1, 6, 29);
 }
@@ -430,10 +442,6 @@ button:focus {
     -o-background-size: cover;
     margin-top: 4em;
     margin-bottom: -1px;
-}
-
-.footer-section-no-space {
-    margin-top: 0 !important;
 }
 
 
@@ -901,10 +909,6 @@ button:focus {
     .figure-image-xt {
         margin-top: 24px;
     }
-
-    .footer-section {
-        margin-top: 6em;
-    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -963,6 +967,14 @@ button:focus {
 
     .banner-subtitle {
         font-size: 24px;
+    }
+
+    .go-to-top-content {
+        margin: 12px 24px 0px 0px;
+    }
+
+    .bubbles {
+        max-width: 40px;
     }
 }
 
@@ -1157,7 +1169,7 @@ button:focus {
     }
 
     .footer-section {
-        height: 466px;
+        height: 450px;
     }
 
     .footer-top {

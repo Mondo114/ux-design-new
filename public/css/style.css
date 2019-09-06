@@ -393,6 +393,10 @@ button:focus {
     display: flex;
 }
 
+.align-center {
+    align-items: center;
+}
+
 .watercolor-top {
     background-image: url("../images/watercolor-top.jpg");
     height: 266px;
@@ -497,7 +501,7 @@ button:focus {
     width: 100%;
     max-width: 1000px;
     height: 100%;
-    margin-top: 2em;
+    margin-top: 60px;
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -594,7 +598,7 @@ button:focus {
     width: 100%;
     max-width: 1000px;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -604,7 +608,17 @@ button:focus {
     width: 100%;
     max-width: 800px;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure-image-ml {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin-top: 60px;
     margin-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
@@ -633,6 +647,16 @@ button:focus {
 .figure-image-tiny {
     width: 100%;
     max-width: 200px;
+    height: 100%;
+    margin-top: 60px;
+    margin-bottom: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.figure-image-xt {
+    width: 100%;
+    max-width: 100px;
     height: 100%;
     margin-top: 60px;
     margin-bottom: 16px;
@@ -867,6 +891,17 @@ button:focus {
         font-size: 1em;
     }
 
+    .scifts-page,
+    .figure-image-xl,
+    .figure-image-lg,
+    .figure-image-ml,
+    .figure-image-med,
+    .figure-image-sm,
+    .figure-image-tiny,
+    .figure-image-xt {
+        margin-top: 24px;
+    }
+
     .footer-section {
         margin-top: 6em;
     }
@@ -929,7 +964,6 @@ button:focus {
     .banner-subtitle {
         font-size: 24px;
     }
-
 }
 
 @media only screen and (max-width: 767px) {

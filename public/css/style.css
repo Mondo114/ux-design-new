@@ -159,6 +159,7 @@ button:focus {
 }
 
 .my-roles {
+    font-weight: bold;
     text-align: center;
     display: flex;
     justify-content: center;

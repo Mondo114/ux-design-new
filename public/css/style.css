@@ -148,6 +148,7 @@ button:focus {
 .banner-title {
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
     color: rgb(247, 108, 94);
 }
 

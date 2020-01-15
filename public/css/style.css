@@ -832,6 +832,11 @@ button:focus {
         margin-left: 6px;
         margin-right: 6px;
     }
+
+    .skills-row {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -955,6 +960,11 @@ button:focus {
 
     .skills-title {
         font-size: 1.2em;
+    }
+
+    .skills-row {
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .footer-content {

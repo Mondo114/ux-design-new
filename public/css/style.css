@@ -34,6 +34,10 @@ a:hover {
     color: rgb(247, 108, 94);
 }
 
+.space-80 {
+    margin-top: 80px;
+}
+
 .text-color {
     color: #333333;
 }
@@ -256,6 +260,14 @@ button:focus {
     align-items: center;
     position: absolute;
 } */
+
+.spark6-screenshot {
+    background-image: url("../images/portfolio-screenshot/spark6-screenshot.jpg");
+}
+
+.ad-screenshot {
+    background-image: url("../images/portfolio-screenshot/ad-screenshot.jpg");
+}
 
 .scifts-screenshot {
     background-image: url("../images/portfolio-screenshot/scifts-screenshot.jpg");
@@ -742,6 +754,19 @@ button:focus {
     font-weight: bold;
 }
 
+/* =============================== */
+/* Spark6 Project "R" */
+/* =============================== */
+
+.spark6-top-pic {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 /* =============================== */
 /* SCIFTS */
@@ -762,6 +787,20 @@ button:focus {
 /* =============================== */
 
 .tuka-laptop {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* =============================== */
+/* Advertisement Designs */
+/* =============================== */
+
+.ad-top-pic {
     width: 100%;
     max-width: 1000px;
     height: 100%;
@@ -811,11 +850,6 @@ button:focus {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-/* =============================== */
-/* Visit Dribbble */
-/* =============================== */
 
 
 

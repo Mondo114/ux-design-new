@@ -265,32 +265,24 @@ button:focus {
     background-image: url("../images/portfolio-screenshot/spark6-screenshot.jpg");
 }
 
-.ad-screenshot {
-    background-image: url("../images/portfolio-screenshot/ad-screenshot.jpg");
-}
-
 .scifts-screenshot {
     background-image: url("../images/portfolio-screenshot/scifts-screenshot.jpg");
+}
+
+.resilience-screenshot {
+    background-image: url("../images/portfolio-screenshot/resilience-screenshot.jpg");
+}
+
+.ad-screenshot {
+    background-image: url("../images/portfolio-screenshot/ad-screenshot.jpg");
 }
 
 .tuka-screenshot {
     background-image: url("../images/portfolio-screenshot/tuka-screenshot.jpg");
 }
 
-.microgurt-screenshot {
-    background-image: url("../images/portfolio-screenshot/microgurt-screenshot.jpg");
-}
-
-.new2dev-screenshot {
-    background-image: url("../images/portfolio-screenshot/new2dev-screenshot.jpg");
-}
-
 .antlers-screenshot {
     background-image: url("../images/portfolio-screenshot/antlers-screenshot.jpg");
-}
-
-.dribbble-screenshot {
-    background-image: url("../images/portfolio-screenshot/dribbble-screenshot.jpg");
 }
 
 .col {
@@ -767,6 +759,11 @@ button:focus {
     margin-right: auto;
 }
 
+.outline-border {
+    border: 5px solid #333333;
+    border-radius: 8px;
+}
+
 
 /* =============================== */
 /* SCIFTS */
@@ -783,10 +780,10 @@ button:focus {
 
 
 /* =============================== */
-/* tuka global */
+/* Resilience */
 /* =============================== */
 
-.tuka-laptop {
+.resilience-phone {
     width: 100%;
     max-width: 1000px;
     height: 100%;
@@ -809,26 +806,11 @@ button:focus {
     margin-right: auto;
 }
 
-
 /* =============================== */
-/* Microgurt */
-/* =============================== */
-
-.microgurt-desktop {
-    width: 100%;
-    max-width: 1000px;
-    height: 100%;
-    margin-top: 4em;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* =============================== */
-/* New2Dev */
+/* tuka global */
 /* =============================== */
 
-.new2dev-phone {
+.tuka-laptop {
     width: 100%;
     max-width: 1000px;
     height: 100%;
@@ -1246,7 +1228,7 @@ button:focus {
     p {
         font-size: 14px;
     }
-    
+
     .my-name {
         max-width: 200px;
     }

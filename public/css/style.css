@@ -34,6 +34,10 @@ a:hover {
     color: rgb(247, 108, 94);
 }
 
+.space-60 {
+    margin-top: 60px;
+}
+
 .space-80 {
     margin-top: 80px;
 }

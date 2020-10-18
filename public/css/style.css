@@ -482,17 +482,12 @@ button:focus {
 }
 
 .help-title {
-    font-size: 3em;
     margin-top: 60px;
     font-weight: 500;
     color: rgb(247, 108, 94);
 }
 
-.help-content {
-    font-size: 1.6em;
-}
-
-.help-content-1 {
+.help-space {
     margin-top: 32px;
 }
 
@@ -1063,14 +1058,6 @@ button:focus {
         background-position: 1% 0px;
     }
 
-    .help-title {
-        font-size: 2em;
-    }
-
-    .help-content {
-        font-size: 1.2em;
-    }
-
     .pelican {
         max-width: 180px;
     }
@@ -1170,14 +1157,6 @@ button:focus {
         margin-top: 0px;
     }
 
-    .help-title {
-        font-size: 1.6em;
-    }
-
-    .help-content {
-        font-size: 0.85em;
-    }
-
     .pelican {
         margin-top: 2em;
         margin-bottom: -8.5em;
@@ -1259,9 +1238,5 @@ button:focus {
 
     .portfolio-text {
         font-size: 0.9em;
-    }
-
-    .help-content {
-        font-size: 0.75em;
     }
 }

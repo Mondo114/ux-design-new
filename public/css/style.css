@@ -42,6 +42,10 @@ a:hover {
     margin-top: 80px;
 }
 
+.space-600 {
+    margin-top: 600px;
+}
+
 .text-color {
     color: #333333;
 }

@@ -179,6 +179,13 @@ button:focus {
     font-size: 30px;
     color: rgb(247, 108, 94);
     padding-top: 4em;
+    margin-bottom: -2em;
+}
+
+.section-subtitle {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(247, 108, 94);
 }
 
 .diagram-section {
@@ -268,6 +275,18 @@ button:focus {
     align-items: center;
     position: absolute;
 } */
+
+.essentials-screenshot {
+    background-image: url("../images/portfolio-screenshot/essentials-screenshot.jpg");
+}
+
+.tastes-screenshot {
+    background-image: url("../images/portfolio-screenshot/tastes-screenshot.jpg");
+}
+
+.principles-screenshot {
+    background-image: url("../images/portfolio-screenshot/principles-screenshot.jpg");
+}
 
 .spark6-screenshot {
     background-image: url("../images/portfolio-screenshot/spark6-screenshot.jpg");

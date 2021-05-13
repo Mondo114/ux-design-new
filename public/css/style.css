@@ -280,6 +280,11 @@ button:focus {
     position: absolute;
 } */
 
+.mayer-screenshot {
+    background-image: url("../images/portfolio-screenshot/mayer-screenshot.jpg");
+    background-position: left;
+}
+
 .essentials-screenshot {
     background-image: url("../images/portfolio-screenshot/essentials-screenshot.jpg");
     background-position: left;

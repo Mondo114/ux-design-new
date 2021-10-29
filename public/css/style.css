@@ -429,11 +429,11 @@ button:focus {
 }
 
 .resume {
-    color: #9bc2ff;
+    color: #9bc2ff !important;
 }
 
 .email {
-    color: #9bc2ff;
+    color: #9bc2ff !important;
 }
 
 

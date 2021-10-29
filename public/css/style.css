@@ -428,6 +428,14 @@ button:focus {
     color: white;
 }
 
+.resume {
+    color: #9bc2ff;
+}
+
+.email {
+    color: #9bc2ff;
+}
+
 
 /* =============================== */
 /* About Page */
@@ -593,7 +601,7 @@ button:focus {
     padding-top: 60px;
     padding-bottom: 8px;
     font-weight: 500;
-    color: rgb(58, 114, 204);
+    color: #326AC3;
 }
 
 .project-subtitle {

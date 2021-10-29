@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-    color: red;
+    color: #5999ff;
 }
 
 .space-40 {
@@ -116,12 +116,12 @@ button:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     cursor: pointer;
-    color: red;
+    color: #5999ff;
 }
 
 .navbar-dark .navbar-nav .nav-link:active {
     cursor: pointer;
-    color: red;
+    color: #5999ff;
 }
 
 .navbar.scrolled {
@@ -135,11 +135,11 @@ button:focus {
 }
 
 .navbar-light .navbar-nav .nav-link.scrolled:hover {
-    color: red;
+    color: #5999ff;
 }
 
 .navbar-light .navbar-nav .nav-link.scrolled:active {
-    color: red;
+    color: #5999ff;
 }
 
 .projects-link-text {

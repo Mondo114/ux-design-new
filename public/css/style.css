@@ -26,12 +26,11 @@ p {
 }
 
 a {
-    color: rgb(33, 186, 236);
-    text-decoration: none !important;
+    color: #004ECC;
 }
 
 a:hover {
-    color: rgb(247, 108, 94);
+    color: #5999ff;
 }
 
 .space-40 {
@@ -165,7 +164,7 @@ button:focus {
     text-align: center;
     font-size: 50px;
     font-weight: bold;
-    color: rgb(247, 108, 94);
+    color: #FFFFFF;
 }
 
 .banner-subtitle {
@@ -181,7 +180,7 @@ button:focus {
     display: flex;
     justify-content: center;
     font-size: 2em;
-    color: rgb(247, 108, 94);
+    color: #002242;
     padding-top: 4em;
     margin-bottom: -2em;
 }
@@ -340,7 +339,7 @@ button:focus {
 .skills-title {
     font-size: 2em;
     font-weight: bold;
-    color: rgb(247, 108, 94);
+    color: #002242;
 }
 
 .skills-item {

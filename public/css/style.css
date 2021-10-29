@@ -60,7 +60,7 @@ a:hover {
     top: 0;
     width: 100%;
     z-index: 999;
-    color: white;
+    color: #FFFFFF;
 }
 
 .navbar-toggler:not(:disabled):not(.disabled) {
@@ -116,12 +116,12 @@ button:focus {
 
 .navbar-dark .navbar-nav .nav-link:hover {
     cursor: pointer;
-    color: rgb(247, 108, 94);
+    color: #5999ff;
 }
 
 .navbar-dark .navbar-nav .nav-link:active {
     cursor: pointer;
-    color: rgb(247, 108, 94);
+    color: #5999ff;
 }
 
 .navbar.scrolled {
@@ -135,15 +135,15 @@ button:focus {
 }
 
 .navbar-light .navbar-nav .nav-link.scrolled:hover {
-    color: rgb(247, 108, 94);
+    color: #5999ff;
 }
 
 .navbar-light .navbar-nav .nav-link.scrolled:active {
-    color: rgb(247, 108, 94);
+    color: #5999ff;
 }
 
 .projects-link-text {
-    color: rgb(247, 108, 94) !important;
+    color: #5999ff !important;
     font-weight: bold;
 }
 
@@ -188,7 +188,7 @@ button:focus {
 .section-subtitle {
     font-size: 30px;
     font-weight: bold;
-    color: rgb(247, 108, 94);
+    color: #002242;
 }
 
 .diagram-section {
@@ -434,12 +434,12 @@ button:focus {
 /* =============================== */
 
 .about-nav-text {
-    color: rgb(247, 108, 94) !important;
+    color: #002242 !important;
     font-weight: bold;
 }
 
 .about-nav-text.scrolled {
-    color: rgb(247, 108, 94) !important;
+    color: #002242 !important;
 }
 
 .display-flex {
@@ -491,12 +491,12 @@ button:focus {
 /* =============================== */
 
 .contact-nav-text {
-    color: rgb(247, 108, 94) !important;
+    color: #002242 !important;
     font-weight: bold;
 }
 
 .contact-nav-text.scrolled {
-    color: rgb(247, 108, 94) !important;
+    color: #002242 !important;
 }
 
 .help-section {
@@ -511,7 +511,7 @@ button:focus {
 .help-title {
     margin-top: 60px;
     font-weight: 500;
-    color: rgb(247, 108, 94);
+    color: #002242;
 }
 
 .help-space {
@@ -585,7 +585,7 @@ button:focus {
     margin-top: 60px;
     margin-bottom: 30px;
     font-weight: 500;
-    color: rgb(247, 108, 94);
+    color: #002242;
 }
 
 .project-section-title {
@@ -601,7 +601,7 @@ button:focus {
     padding-top: 30px;
     padding-bottom: 8px;
     font-weight: 500;
-    color: rgb(247, 108, 94);
+    color: #002242;
 }
 
 .prototype-image {

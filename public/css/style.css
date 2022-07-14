@@ -279,6 +279,15 @@ button:focus {
     position: absolute;
 } */
 
+.dsc-screenshot {
+    background-image: url("../images/portfolio-screenshot/dsc-screenshot.jpg");
+}
+
+.irem-screenshot {
+    background-image: url("../images/portfolio-screenshot/irem-screenshot.jpg");
+    background-position: left;
+}
+
 .mayer-screenshot {
     background-image: url("../images/portfolio-screenshot/mayer-screenshot.jpg");
 }

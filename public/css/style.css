@@ -423,7 +423,7 @@ button:focus {
 }
 
 .icon:hover {
-    transform: scale(1.05, 1.05);
+    transform: scale(1.1, 1.1);
 }
 
 .icon:active {
@@ -793,6 +793,36 @@ button:focus {
     font-weight: bold;
 }
 
+/* .view-object {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 8px;
+    font-weight: 500;
+    color: #002242;
+} */
+
+.view-object-button {
+    border: 6px solid #48D0FB;
+    background-color: rgb(1, 6, 29);
+    border-color: #48D0FB;
+    font-size: 24px;
+    padding: 14px 28px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 16px;
+}
+
+.view-object-button:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.no-underline:hover {
+    text-decoration: none;
+}
+
+  
 /* =============================== */
 /* Spark6 Project "R" */
 /* =============================== */

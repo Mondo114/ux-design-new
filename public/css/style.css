@@ -339,7 +339,7 @@ button:focus {
 }
 
 .skills-row {
-    margin-top: 9em;
+    margin-top: 5em;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
@@ -793,15 +793,6 @@ button:focus {
     font-weight: bold;
 }
 
-/* .view-object {
-    text-align: center;
-    font-size: 40px;
-    padding-top: 60px;
-    padding-bottom: 8px;
-    font-weight: 500;
-    color: #002242;
-} */
-
 .view-object-button {
     border: 6px solid #48D0FB;
     background-color: rgb(1, 6, 29);
@@ -990,11 +981,7 @@ button:focus {
     .portfolio-text {
         font-size: 1em;
     }
-
-    .skills-row {
-        margin-top: 6em;
-    }
-
+    
     .skills-item {
         font-size: 1em;
     }

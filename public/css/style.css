@@ -1172,6 +1172,10 @@ button:focus {
     .skills-row {
         display: none;
     }
+
+    .skills-item {
+        font-size: 18px;
+    }
 }
 
 @media only screen and (min-width: 601px) {

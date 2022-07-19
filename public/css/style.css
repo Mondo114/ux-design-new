@@ -33,6 +33,10 @@ a:hover {
     color: #5999ff;
 }
 
+.space-30 {
+    margin-top: 30px;
+}
+
 .space-40 {
     margin-top: 40px;
 }
@@ -1198,13 +1202,13 @@ button:focus {
         font-size: 20px;
     }
 
-    .portfolio-item-top {
+    /* .portfolio-item-top {
         margin-top: 4em;
     }
 
     .portfolio-item {
         margin-top: 4em;
-    }
+    } */
 
     .project-title {
         font-size: 28px;

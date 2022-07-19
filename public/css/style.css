@@ -345,6 +345,14 @@ button:focus {
     justify-content: space-between;
 }
 
+.skills-row-mobile {
+    margin-top: 4em;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+
 .skills-title {
     font-size: 2em;
     font-weight: bold;
@@ -981,7 +989,7 @@ button:focus {
     .portfolio-text {
         font-size: 1em;
     }
-    
+
     .skills-item {
         font-size: 1em;
     }
@@ -1162,6 +1170,13 @@ button:focus {
     }
 
     .skills-row {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+
+    .skills-row-mobile {
         display: none;
     }
 }

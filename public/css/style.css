@@ -667,6 +667,16 @@ button:focus {
     margin-top: 12px;
 }
 
+.figure-image-xl-alt {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .figure-image-xl {
     width: 100%;
     max-width: 1000px;
@@ -825,6 +835,10 @@ button:focus {
     text-decoration: none;
 }
 
+.video-attributes {
+    text-align: center;
+    margin: 32px;
+}
   
 /* =============================== */
 /* Spark6 Project "R" */

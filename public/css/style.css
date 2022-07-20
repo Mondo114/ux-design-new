@@ -23,6 +23,7 @@ h2 {
 
 p {
     font-size: 18px;
+    line-height: 2;
 }
 
 a {
@@ -343,7 +344,7 @@ button:focus {
 }
 
 .skills-row {
-    margin-top: 5em;
+    margin-top: 1em;
     display: flex;
     /* flex-direction: row; */
     justify-content: space-between;
@@ -501,6 +502,46 @@ button:focus {
 .about-section {
     margin-top: 3em;
 }
+
+.testimonial-card {
+    box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    background-position: center 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+.testimonial-paragraph {
+    padding: 60px 40px 20px 40px;
+    margin: 40px 80px 0 80px;
+}
+
+.testimonial-name {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.testimonial-role {
+    text-align: center;
+    margin: 0 0 60px 0;
+    padding: 0px 0 60px 0;
+}
+
+.testimonial-role-last {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding: 0px 0 40px 0;
+}
+
+/* .big-quotations {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+} */
 
 .watercolor-bottom {
     background-image: url("../images/watercolor-bottom.jpg");
@@ -1087,6 +1128,10 @@ button:focus {
         font-size: 24px;
     }
 
+    .testimonial-paragraph {
+        margin: 0;
+    }
+
     .go-to-top-content {
         margin: 12px 24px 0px 0px;
     }
@@ -1118,7 +1163,6 @@ button:focus {
     }
 
     .my-roles {
-        /* font-size: 20px; */
         padding-left: 1em;
         padding-right: 1em;
     }

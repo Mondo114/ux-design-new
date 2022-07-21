@@ -361,7 +361,7 @@ button:focus {
 .skills-title {
     font-size: 2em;
     font-weight: bold;
-    color: #002242;
+    color: #006EF5;
 }
 
 .skills-item {
@@ -506,7 +506,7 @@ button:focus {
 .testimonial-card {
     box-shadow: 0px 3px 6px 1px rgb(230, 230, 230);
     border-radius: 5px;
-    background-color: rgb(248, 248, 248);
+    background-color: #f1f7ff;
     background-position: center 0%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -655,7 +655,7 @@ button:focus {
     margin-top: 60px;
     margin-bottom: 30px;
     font-weight: 500;
-    color: #002242;
+    color: #001f46;
 }
 
 .project-section-title {
@@ -663,7 +663,7 @@ button:focus {
     padding-top: 60px;
     padding-bottom: 8px;
     font-weight: 500;
-    color: #048386;
+    color: #003d88;
 }
 
 .project-subtitle {
@@ -671,7 +671,7 @@ button:focus {
     padding-top: 30px;
     padding-bottom: 8px;
     font-weight: 500;
-    color: #002242;
+    color: #006EF5;
 }
 
 .prototype-image {
@@ -982,11 +982,6 @@ button:focus {
         margin-left: 6px;
         margin-right: 6px;
     }
-
-    .skills-row {
-        margin-left: 100px;
-        margin-right: 100px;
-    }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -1105,15 +1100,6 @@ button:focus {
         height: 260px;
     }
 
-    .skills-title {
-        font-size: 1.2em;
-    }
-
-    .skills-row {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-
     .footer-content {
         font-size: 16px;
     }
@@ -1171,14 +1157,6 @@ button:focus {
         height: 260px;
     }
 
-    .skills-title {
-        font-size: 1em;
-    }
-
-    .skills-item {
-        font-size: 0.8em;
-    }
-
     .watercolor-top {
         height: 150px;
         background-position: 20% 0px;
@@ -1227,7 +1205,6 @@ button:focus {
     }
 
     .my-roles {
-        /* font-size: 16px; */
         padding-top: 4em;
     }
 

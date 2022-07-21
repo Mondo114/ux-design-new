@@ -655,7 +655,7 @@ button:focus {
     margin-top: 60px;
     margin-bottom: 30px;
     font-weight: 500;
-    color: #001f46;
+    color: #002653;
 }
 
 .project-section-title {
@@ -663,7 +663,7 @@ button:focus {
     padding-top: 60px;
     padding-bottom: 8px;
     font-weight: 500;
-    color: #003d88;
+    color: #0049a1;
 }
 
 .project-subtitle {
@@ -880,7 +880,19 @@ button:focus {
     text-align: center;
     margin: 32px;
 }
+
+
+/* =============================== */
+/* CSUF Projects */
+/* =============================== */
+
+
+.accessibility-list-item {
+    font-size: 18px;
+    line-height: 2;
+}
   
+
 /* =============================== */
 /* Spark6 Project "R" */
 /* =============================== */

@@ -1009,8 +1009,8 @@ button:focus {
 
 @media only screen and (max-width: 2000px) {
     .portfolio-item {
-        margin-left: 6em;
-        margin-right: 6em;
+        margin-left: 6px;
+        margin-right: 6px;
     }
 }
 
@@ -1018,11 +1018,6 @@ button:focus {
 @media only screen and (max-width: 1500px) {
     .banner {
         background-position: 0 -200px;
-    }
-
-    .portfolio-item {
-        margin-left: 6px;
-        margin-right: 6px;
     }
 }
 
